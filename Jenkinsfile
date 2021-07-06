@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                git 'https://github.com/RKTurk/java-rest-api-calculator.git'
+                git 'https://github.com/kainatnazir77/cloud.git'
                 bat '.\\mvnw clean compile'
             }
         }
